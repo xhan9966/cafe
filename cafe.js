@@ -68,7 +68,11 @@ const handlerClick = (index) => {
     const optionText = `$${element.price} - ${firstUpperCase(
       element.name
     )}  x ${element.count}`;
-    $("#order").append(new Option(optionText, element.count));
+    const option = new Option(optionText, element.count);
+    $(option).css("font-family", "Verdana, Arial, Helvetica, sans-serif");
+    $(option).css("font-size", "100%");
+    $(option).css("width", "100%");
+    $("#order").append(option);
 
     total += element.price * element.count;
   });

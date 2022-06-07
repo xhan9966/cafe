@@ -53,3 +53,7 @@ input {
 #buttons {
 	margin-top: 0;
 }
+
+#error {
+	color: red;
+}

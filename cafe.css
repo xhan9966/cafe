@@ -45,7 +45,7 @@ h2 {
 }
 
 select {
-	width: 305px;
+	width: 60%;
 }
 
 #menu h2 {
@@ -142,5 +142,17 @@ footer {
 	}
 	ul img {
 		width: 46%;
+	}
+	select {
+		width: 80%
+	}
+
+	#buttons {
+		flex-flow: column;
+	}
+
+	#buttons input {
+		width: 60%;
+		margin: .5em auto;
 	}
 } 

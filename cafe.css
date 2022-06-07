@@ -12,11 +12,32 @@ body {
 
 header {
 	text-align: center;
-	border-bottom: 3px solid #b59763;}
+	border-bottom: 3px solid #b59763;
+}
+
+nav {
+	height: 3em;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+}
+
+nav a {
+	color: #b59763;
+	font-size: 110%;
+	font-weight: 500;
+	border-radius: 0.1em;
+	border: 0;
+	margin: 1em;
+	font-size: 140%;
+	font-weight: 800;
+}
+
 h1 { 
     font-size: 150%;
     margin: 0 auto;
 }
+
 h2 {
 	font-size: 140%;
 	font-weight: 800;
@@ -26,6 +47,7 @@ h2 {
 select {
 	width: 305px;
 }
+
 #menu h2 {
 	padding-top: 1em;
 }
@@ -69,12 +91,11 @@ select {
 #buttons input {
 	color: white;
 	background-color: #b59763;
-	font-size: 18px;
+	font-size: 110%;
 	font-weight: 500;
-	width: 150px;
-	border-radius: 5px;
-	padding: 6px 18px;
-	margin: 0% 1em;
+	border-radius: 0.25em;
+	padding: 0.5em 1em;
+	margin: 0 1em;
 	border: 0;
 }
 
@@ -92,12 +113,18 @@ select {
 #back_link a {
 	color: white;
 	background-color: #b59763;
-	font-size: 18px;
+	font-size: 110%;
 	font-weight: 500;
-	border-radius: 5px;
-	padding: 6px 18px;
+	border-radius: 0.25em;
+	padding: 0.5em 1em;
 	border: 0;
   	text-decoration: none;
+}
+
+#about {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
 }
 
 footer {
